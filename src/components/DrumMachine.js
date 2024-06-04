@@ -1,4 +1,3 @@
-// DrumMachine.js
 import React, { useState } from 'react';
 import DrumPad from './DrumPad';
 import Display from './Display';
@@ -27,7 +26,7 @@ const DrumMachine = () => {
       <Display displayText={displayText} />
       <div className="drum-pads row">
         {drumPads.map((pad) => (
-          <div key={pad.id} className="col-4 mb-3">
+          <div key={pad.id} className="col-4 mb-6 d-flex justify-content-center">
             <DrumPad
               id={pad.id}
               keyTrigger={pad.keyTrigger}
@@ -43,3 +42,4 @@ const DrumMachine = () => {
 }
 
 export default DrumMachine;
+

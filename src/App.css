@@ -25,8 +25,12 @@ body {
   padding: 15px;
   margin-bottom: 20px;
   font-size: 24px;
-  color: #fff; 
-  text-shadow: 0 0 10px #777; 
+  color: #ffffff; 
+  text-shadow: 0 0 10px #ffffff; 
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .drum-pads {
@@ -39,13 +43,19 @@ body {
   background-color: #444;
   border: 2px solid #777;
   border-radius: 10px;
-  padding: 20px;
+  padding: 40px; 
   margin: 10px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 24px; 
   transition: background-color 0.3s, transform 0.1s;
   user-select: none;
   color: #fff; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  text-align: center;
 }
 
 .drum-pad:active {
@@ -56,7 +66,3 @@ body {
 .drum-pad:hover {
   background-color: #666;
 }
-
-
-
-
